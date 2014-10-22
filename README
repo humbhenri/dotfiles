@@ -1,0 +1,11 @@
+dotfiles for linux machines
+===========================
+
+How to install ...
+cd dotfiles
+stow redshift
+stow vim 
+.
+.
+.
+etc
