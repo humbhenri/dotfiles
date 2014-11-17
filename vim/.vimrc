@@ -21,6 +21,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'altercation/vim-colors-solarized'
 " Git plugin not hosted on GitHub
 " git repos on your local machine (i.e. when working on your own plugin)
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -92,4 +93,4 @@ let g:ctrlp_root_markers = ['.ctrlp']
 
 nnoremap ; :
 
-colorscheme jellybeans
+colorscheme solarized
