@@ -22,6 +22,8 @@ Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'moll/vim-node'
+Plugin 'scrooloose/syntastic'
 " Git plugin not hosted on GitHub
 " git repos on your local machine (i.e. when working on your own plugin)
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -43,7 +45,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 set t_Co=256
-set term=xterm-256color
+"set term=xterm-256color
 syntax on                           " Enable syntax highlighting
 set hidden                          " Hides the buffers instead of closing them
 set wrap linebreak nolist           " Soft wrap text that's longer than the line width
